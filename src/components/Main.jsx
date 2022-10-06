@@ -6,7 +6,7 @@ import RepositoryList from "./RespositoryList";
 const Main = () => {
   return (
     <View style={{ marginTop: Constants.statusBarHeight, flexGrow: 1 }}>
-          <Text>Welcome from Main.jsx</Text>
+          <Text>List of repos..</Text>
           <RepositoryList/>
     </View>
   );
