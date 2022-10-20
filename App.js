@@ -1,5 +1,13 @@
-import Main from "./src/components/Main.jsx";
+import React from "react";
+import { NativeRouter } from "react-router-native";
+import  Main  from "./src/components/Main";
 
-export default function App() {
-  return <Main />;
-}
+const App = () => {
+  return (
+    <NativeRouter>
+      <Main />
+    </NativeRouter>
+  );
+};
+
+export default App;

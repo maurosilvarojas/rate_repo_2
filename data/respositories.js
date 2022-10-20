@@ -13,7 +13,8 @@ export default [
   {
     id: "rails.rails",
     fullName: "rails/rails",
-    description: "Ruby on Rails",
+    description:
+      "Ruby on Rails",
     language: "Ruby",
     forksCount: 18349,
     stargazersCount: 45377,
